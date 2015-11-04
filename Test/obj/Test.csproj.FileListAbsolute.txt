@@ -1,0 +1,9 @@
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.exe
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.pdb
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\ResolveAssemblyReference.cache
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.Form1.resources
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.Form2.resources
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Софт\Тесмтировщик психология\Test\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Софт\Тесмтировщик психология\Test\Test\bin\Debug\Test.exe
+D:\Софт\Тесмтировщик психология\Test\Test\bin\Debug\Test.pdb

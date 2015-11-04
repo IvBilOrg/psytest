@@ -1,0 +1,9 @@
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.pdb
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\bin\Debug\Test.exe
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\bin\Debug\Test.pdb
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.csprojResolveAssemblyReference.cache
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.Form1.resources
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.Form2.resources
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.Properties.Resources.resources
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.csproj.GenerateResource.Cache
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\Test\obj\Debug\Test.exe
