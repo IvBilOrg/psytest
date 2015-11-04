@@ -1,0 +1,8 @@
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\bin\Debug\TestProgram.exe.config
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\bin\Debug\TestProgram.exe
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\bin\Debug\TestProgram.pdb
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\bin\Debug\ru\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\obj\Debug\TestProgram.csprojResolveAssemblyReference.cache
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\obj\Debug\TestProgram.exe
+D:\Ivan\Учеба\Кононов лабы\ПРОЕКТЫ\TestProgram\TestProgram\obj\Debug\TestProgram.pdb
