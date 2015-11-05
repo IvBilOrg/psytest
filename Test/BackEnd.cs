@@ -28,6 +28,7 @@ namespace Test
                 if (answ[i] == keys[i]) result++;
             }
             return result;
+            
         }
         // compareResults(answ, TxtKeys);
     }
