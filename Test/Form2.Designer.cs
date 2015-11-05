@@ -62,7 +62,6 @@
             this.labelResult.Size = new System.Drawing.Size(77, 25);
             this.labelResult.TabIndex = 0;
             this.labelResult.Text = "Results";
-            //this.labelResult.Click += new System.EventHandler(this.label1_Click);
             // 
             // labelCat1
             // 

@@ -13,7 +13,7 @@ namespace Test
         public Form2()
         {
             InitializeComponent();
-            labelResult.Text = BackEnd.compareResults(BackEnd.answ, BackEnd.txtKeys.keys).ToString();
+            labelResult.Text += " " + BackEnd.compareResults(BackEnd.answ, BackEnd.txtKeys.keys).ToString();
             
         }
 

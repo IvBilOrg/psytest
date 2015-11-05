@@ -17,6 +17,9 @@ namespace Test
         {
             numberOfQuestion = 1;
             InitializeComponent();
+            this.labelQuestion.Text = BackEnd.txtTest.test[this.numberOfQuestion - 1, 0];
+            this.radioButtonVariantA.Text = BackEnd.txtTest.test[this.numberOfQuestion - 1, 1];
+            this.radioButtonVariantB.Text = BackEnd.txtTest.test[this.numberOfQuestion - 1, 2];
             this.labelStart.Location = new System.Drawing.Point(0,0);            
             this.labelStart.Size = this.Size;
 
