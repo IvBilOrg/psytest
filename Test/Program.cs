@@ -19,7 +19,7 @@ namespace Test
             Application.SetCompatibleTextRenderingDefault(false);
             Form1 mainForm = new Form1();
             Application.Run(mainForm);
-            if (mainForm.i == BackEnd.txtTest.amountOfQuestions) Application.Run(new Form2());
+            if (mainForm.numberOfQuestion == BackEnd.txtTest.amountOfQuestions) Application.Run(new Form2());
         }
     }
 }

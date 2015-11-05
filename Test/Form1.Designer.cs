@@ -56,7 +56,7 @@
             this.labelQuestion.Name = "labelQuestion";
             this.labelQuestion.Size = new System.Drawing.Size(66, 25);
             this.labelQuestion.TabIndex = 1;
-            this.labelQuestion.Text = "label1";
+            this.labelQuestion.Text = BackEnd.txtTest.test[this.numberOfQuestion - 1, 0];
             // 
             // radioButtonVariantA
             // 
@@ -67,7 +67,7 @@
             this.radioButtonVariantA.Size = new System.Drawing.Size(144, 29);
             this.radioButtonVariantA.TabIndex = 4;
             this.radioButtonVariantA.TabStop = true;
-            this.radioButtonVariantA.Text = "radioButton1";
+            this.radioButtonVariantA.Text = BackEnd.txtTest.test[this.numberOfQuestion-1, 1];
             this.radioButtonVariantA.UseVisualStyleBackColor = true;
             // 
             // radioButtonVariantB
@@ -79,14 +79,14 @@
             this.radioButtonVariantB.Size = new System.Drawing.Size(144, 29);
             this.radioButtonVariantB.TabIndex = 5;
             this.radioButtonVariantB.TabStop = true;
-            this.radioButtonVariantB.Text = "radioButton2";
+            this.radioButtonVariantB.Text = BackEnd.txtTest.test[this.numberOfQuestion - 1, 2];
             this.radioButtonVariantB.UseVisualStyleBackColor = true;
-            this.radioButtonVariantB.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
+            //this.radioButtonVariantB.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // labelStart
             // 
             this.labelStart.Font = new System.Drawing.Font("Times New Roman", 16F);
-            this.labelStart.Location = new System.Drawing.Point(8, 197);
+            this.labelStart.Location = new System.Drawing.Point(265, 20);
             this.labelStart.Name = "labelStart";
             this.labelStart.Size = this.Size;
             this.labelStart.TabIndex = 6;

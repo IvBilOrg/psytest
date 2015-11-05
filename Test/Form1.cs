@@ -10,25 +10,22 @@ namespace Test
 {
     public partial class Form1 : Form
     {
-        public int i = 0;
+        public int numberOfQuestion;
         
 
         public Form1()
         {
-           
+            numberOfQuestion = 1;
             InitializeComponent();
             this.labelStart.Location = new System.Drawing.Point(0,0);            
             this.labelStart.Size = this.Size;
 
             //labelStart.Size = System.Windows.Forms.Form;
-            nextPage();
-            i--;
+            //nextPage();
+            //numberOfQuestions--;
         }
 
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
+      
 
         private void button1_Click(object sender, EventArgs e)
         {
@@ -36,37 +33,35 @@ namespace Test
                 MessageBox.Show("Выберите ответ");
             else 
             {
-                if (radioButtonVariantA.Checked == true) BackEnd.answ[i] = 'а';
-                else BackEnd.answ[i] = 'б';
-                
-                nextPage();
-               
+                if (radioButtonVariantA.Checked == true) BackEnd.answ[numberOfQuestion-1] = 'а';
+                else BackEnd.answ[numberOfQuestion-1] = 'б';
+
+                if (numberOfQuestion != BackEnd.txtTest.amountOfQuestions)
+                {
+                    numberOfQuestion++;
+                    nextPage();
+                }
+                else
+                {
+                    this.Close();
+                }
             }
            
             
         }
 
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
 
-        }
 
-        protected void nextPage() 
+        protected void nextPage()
         {
             radioButtonVariantA.Checked = false;
             radioButtonVariantB.Checked = false;
-            if (i < BackEnd.txtTest.amountOfQuestions)
-            {
-                i++;
-                labelQuestion.Text = BackEnd.txtTest.test[i, 0];
-                radioButtonVariantA.Text = BackEnd.txtTest.test[i, 1];
-                radioButtonVariantB.Text = BackEnd.txtTest.test[i, 2];
-                
-            }
-            else
-            {
-                this.Close();
-            }
+
+            labelQuestion.Text = BackEnd.txtTest.test[numberOfQuestion-1, 0];
+            radioButtonVariantA.Text = BackEnd.txtTest.test[numberOfQuestion-1, 1];
+            radioButtonVariantB.Text = BackEnd.txtTest.test[numberOfQuestion-1, 2];
+
+
         }
 
         private void labelStart_Click(object sender, EventArgs e)
